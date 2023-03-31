@@ -4,17 +4,40 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f23d8bf6-53cc-45df-bcbc-3a1057aaeedc" name="Changes" comment="GateWay">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gateway/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gateway/src/main/java/com/jusec/gateway/GatewatApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gateway/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
+    <list default="true" id="f23d8bf6-53cc-45df-bcbc-3a1057aaeedc" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/User-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User-service/src/main/java/com/jusec/user/UserApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User-service/src/main/java/com/jusec/user/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User-service/src/main/java/com/jusec/user/dto/LoginFormDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User-service/src/main/java/com/jusec/user/dto/UserDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User-service/src/main/java/com/jusec/user/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User-service/src/main/java/com/jusec/user/entity/UserInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User-service/src/main/java/com/jusec/user/mapper/UserInfoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User-service/src/main/java/com/jusec/user/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User-service/src/main/java/com/jusec/user/service/IUserInfoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User-service/src/main/java/com/jusec/user/service/IUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User-service/src/main/java/com/jusec/user/service/impl/UserInfoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User-service/src/main/java/com/jusec/user/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User-service/src/main/java/com/jusec/user/utils/LoginInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User-service/src/main/java/com/jusec/user/utils/RedisConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User-service/src/main/java/com/jusec/user/utils/RefreshTokenInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User-service/src/main/java/com/jusec/user/utils/RegexPatterns.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User-service/src/main/java/com/jusec/user/utils/RegexUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User-service/src/main/java/com/jusec/user/utils/SystemConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User-service/src/main/java/com/jusec/user/utils/UserHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User-service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Utils/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Utils/src/main/java/com/jusec/utils/dto/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Utils/src/main/java/com/jusec/utils/utils/CacheClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Utils/src/main/java/com/jusec/utils/utils/ILock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Utils/src/main/java/com/jusec/utils/utils/PasswordEncoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Utils/src/main/java/com/jusec/utils/utils/RedisConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Utils/src/main/java/com/jusec/utils/utils/RedisData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Utils/src/main/java/com/jusec/utils/utils/RedisIdWorker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Utils/src/main/java/com/jusec/utils/utils/RegexPatterns.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Utils/src/main/java/com/jusec/utils/utils/SimpleRedisLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
@@ -69,13 +92,19 @@
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "corretto-1.8",
-    "last_opened_file_path": "E:/Java/WorkSpace/Mo_Project/DZDP/Gateway/src/main/resources",
+    "last_opened_file_path": "E:/Java/WorkSpace/Mo_Project/DZDP/User-service/src/main/resources",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "MavenSettings",
     "spring.configuration.checksum": "926dec9494209cb088b4962509df1a91"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Java\WorkSpace\Mo_Project\DZDP\User-service\src\main\resources" />
+      <recent name="E:\Java\WorkSpace\Mo_Project\DZDP\Utils\src\main\java" />
+      <recent name="E:\Java\WorkSpace\Mo_Project\DZDP\User-service\src\main\java" />
       <recent name="E:\Java\WorkSpace\Mo_Project\DZDP\Gateway\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -90,7 +119,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.UserApplication">
     <configuration name="GatewatApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="Gateway" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.jusec.gateway.GatewatApplication" />
@@ -104,8 +133,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="User-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jusec.user.UserApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jusec.user.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.UserApplication" />
         <item itemvalue="Spring Boot.GatewatApplication" />
       </list>
     </recent_temporary>
@@ -120,7 +163,16 @@
       <updated>1680251877292</updated>
       <workItem from="1680269609744" duration="1084000" />
       <workItem from="1680270702392" duration="45000" />
+      <workItem from="1680270762607" duration="1320000" />
     </task>
+    <task id="LOCAL-00001" summary="GateWay">
+      <created>1680270975388</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1680270975388</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
