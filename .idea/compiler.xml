@@ -8,14 +8,20 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="User-service" />
+        <module name="Shop-service" />
         <module name="Utils" />
         <module name="Gateway" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Shop" target="1.8" />
+      <module name="Shop_service" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Gateway" options="-parameters" />
+      <module name="Shop-service" options="-parameters" />
       <module name="User-service" options="-parameters" />
       <module name="Utils" options="-parameters" />
     </option>

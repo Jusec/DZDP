@@ -1,9 +1,10 @@
-package com.jusec.utils.utils;
+package com.jusec.shop.utils;
 
 import cn.hutool.core.util.BooleanUtil;
 import cn.hutool.core.util.StrUtil;
 import cn.hutool.json.JSONObject;
 import cn.hutool.json.JSONUtil;
+import com.jusec.utils.utils.RedisData;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.stereotype.Component;
@@ -14,8 +15,8 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
 import java.util.function.Function;
 
-import static com.jusec.utils.utils.RedisConstants.CACHE_NULL_TTL;
-import static com.jusec.utils.utils.RedisConstants.LOCK_SHOP_KEY;
+import static com.jusec.shop.utils.RedisConstants.CACHE_NULL_TTL;
+import static com.jusec.shop.utils.RedisConstants.LOCK_SHOP_KEY;
 
 
 @Slf4j
