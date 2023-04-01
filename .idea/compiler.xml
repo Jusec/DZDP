@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="User-service" />
+        <module name="Voucher_service" />
         <module name="Shop-service" />
         <module name="Utils" />
         <module name="Gateway" />
@@ -24,6 +25,7 @@
       <module name="Shop-service" options="-parameters" />
       <module name="User-service" options="-parameters" />
       <module name="Utils" options="-parameters" />
+      <module name="Voucher_service" options="-parameters" />
     </option>
   </component>
 </project>

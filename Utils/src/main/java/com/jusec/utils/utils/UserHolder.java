@@ -1,6 +1,6 @@
-package com.jusec.user.utils;
+package com.jusec.utils.utils;
 
-import com.jusec.user.dto.UserDTO;
+import com.jusec.utils.dto.UserDTO;
 
 public class UserHolder {
     private static final ThreadLocal<UserDTO> tl = new ThreadLocal<>();

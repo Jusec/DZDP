@@ -5,28 +5,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f23d8bf6-53cc-45df-bcbc-3a1057aaeedc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Shop-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shop-service/src/main/java/com/jusec/shop/ShopApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shop-service/src/main/java/com/jusec/shop/config/MybatisConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shop-service/src/main/java/com/jusec/shop/controller/ShopController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shop-service/src/main/java/com/jusec/shop/controller/ShopTypeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shop-service/src/main/java/com/jusec/shop/entity/Shop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shop-service/src/main/java/com/jusec/shop/entity/ShopType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shop-service/src/main/java/com/jusec/shop/mapper/ShopMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shop-service/src/main/java/com/jusec/shop/mapper/ShopTypeMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shop-service/src/main/java/com/jusec/shop/service/IShopService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shop-service/src/main/java/com/jusec/shop/service/IShopTypeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shop-service/src/main/java/com/jusec/shop/service/impl/ShopServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shop-service/src/main/java/com/jusec/shop/service/impl/ShopTypeServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shop-service/src/main/java/com/jusec/shop/utils/RedisConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shop-service/src/main/java/com/jusec/shop/utils/SystemConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shop-service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Voucher_service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Voucher_service/src/main/java/com/jusec/voucher/VoucherApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Voucher_service/src/main/java/com/jusec/voucher/config/RabbitMQConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Voucher_service/src/main/java/com/jusec/voucher/config/RedissonConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Voucher_service/src/main/java/com/jusec/voucher/dto/MqDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Voucher_service/src/main/java/com/jusec/voucher/entity/SeckillVoucher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Voucher_service/src/main/java/com/jusec/voucher/entity/Voucher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Voucher_service/src/main/java/com/jusec/voucher/entity/VoucherOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Voucher_service/src/main/java/com/jusec/voucher/mapper/SeckillVoucherMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Voucher_service/src/main/java/com/jusec/voucher/mapper/VoucherMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Voucher_service/src/main/java/com/jusec/voucher/mapper/VoucherOrderMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Voucher_service/src/main/java/com/jusec/voucher/service/ISeckillVoucherService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Voucher_service/src/main/java/com/jusec/voucher/service/IVoucherOrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Voucher_service/src/main/java/com/jusec/voucher/service/IVoucherService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Voucher_service/src/main/java/com/jusec/voucher/service/impl/SeckillVoucherServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Voucher_service/src/main/java/com/jusec/voucher/service/impl/VoucherOrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Voucher_service/src/main/java/com/jusec/voucher/service/impl/VoucherServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Voucher_service/src/main/java/com/jusec/voucher/utils/RedisConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Voucher_service/src/main/resources/application.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/User-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/User-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Utils/src/main/java/com/jusec/utils/utils/CacheClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/Shop-service/src/main/java/com/jusec/shop/utils/CacheClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/User-service/src/main/java/com/jusec/user/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/User-service/src/main/java/com/jusec/user/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/User-service/src/main/java/com/jusec/user/dto/UserDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/Utils/src/main/java/com/jusec/utils/dto/UserDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/User-service/src/main/java/com/jusec/user/service/IUserInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/User-service/src/main/java/com/jusec/user/service/IUserInfoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/User-service/src/main/java/com/jusec/user/service/IUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/User-service/src/main/java/com/jusec/user/service/IUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/User-service/src/main/java/com/jusec/user/service/impl/UserInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/User-service/src/main/java/com/jusec/user/service/impl/UserInfoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/User-service/src/main/java/com/jusec/user/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/User-service/src/main/java/com/jusec/user/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/User-service/src/main/java/com/jusec/user/utils/LoginInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/User-service/src/main/java/com/jusec/user/utils/LoginInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/User-service/src/main/java/com/jusec/user/utils/RefreshTokenInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/User-service/src/main/java/com/jusec/user/utils/RefreshTokenInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/User-service/src/main/java/com/jusec/user/utils/RegexUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/User-service/src/main/java/com/jusec/user/utils/RegexUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/User-service/src/main/java/com/jusec/user/utils/UserHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/Utils/src/main/java/com/jusec/utils/utils/UserHolder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Utils/src/main/java/com/jusec/utils/utils/RegexPatterns.java" beforeDir="false" afterPath="$PROJECT_DIR$/Utils/src/main/java/com/jusec/utils/utils/RegexPatterns.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,8 +56,38 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+  </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="dev" />
+                    <option name="lastUsedInstant" value="1680337026" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1680336949" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -80,7 +122,7 @@
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "corretto-1.8",
-    "last_opened_file_path": "E:/Java/WorkSpace/Mo_Project/DZDP/Shop-service/src/main/resources",
+    "last_opened_file_path": "E:/Java/WorkSpace/Mo_Project/DZDP/Voucher_service/src/main/resources",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -90,16 +132,18 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Java\WorkSpace\Mo_Project\DZDP\Voucher_service\src\main\resources" />
+      <recent name="E:\Java\WorkSpace\Mo_Project\DZDP\Voucher_service\src\main\java" />
       <recent name="E:\Java\WorkSpace\Mo_Project\DZDP\Shop-service\src\main\resources" />
       <recent name="E:\Java\WorkSpace\Mo_Project\DZDP\Shop-service\src\main\java" />
       <recent name="E:\Java\WorkSpace\Mo_Project\DZDP\User-service\src\main\resources" />
-      <recent name="E:\Java\WorkSpace\Mo_Project\DZDP\Utils\src\main\java" />
-      <recent name="E:\Java\WorkSpace\Mo_Project\DZDP\User-service\src\main\java" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.jusec.utils.utils" />
+      <recent name="com.jusec.utils.dto" />
+      <recent name="com.jusec.voucher.config" />
+      <recent name="com.jusec.voucher.utils" />
       <recent name="com.jusec.shop.utils" />
-      <recent name="com.jusec.user.utils" />
-      <recent name="com.jusec.gateway" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -110,7 +154,20 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ShopApplication">
+  <component name="RunManager" selected="Spring Boot.VoucherApplication">
+    <configuration name="ShopApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jusec.shop.ShopApplication" />
+      <module name="Shop_service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jusec.shop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GatewatApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="Gateway" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.jusec.gateway.GatewatApplication" />
@@ -150,11 +207,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="VoucherApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="Voucher_service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jusec.voucher.VoucherApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jusec.voucher.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.ShopApplication" />
+        <item itemvalue="Spring Boot.VoucherApplication" />
         <item itemvalue="Spring Boot.UserApplication" />
         <item itemvalue="Spring Boot.GatewatApplication" />
+        <item itemvalue="Application.ShopApplication" />
+        <item itemvalue="Spring Boot.ShopApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -170,7 +242,7 @@
       <workItem from="1680270702392" duration="45000" />
       <workItem from="1680270762607" duration="1320000" />
       <workItem from="1680274657145" duration="859000" />
-      <workItem from="1680336477233" duration="126000" />
+      <workItem from="1680336477233" duration="2130000" />
     </task>
     <task id="LOCAL-00001" summary="GateWay">
       <created>1680270975388</created>
@@ -179,7 +251,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680270975388</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add Shop-service">
+      <created>1680336854239</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1680336854239</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,6 +277,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="GateWay" />
-    <option name="LAST_COMMIT_MESSAGE" value="GateWay" />
+    <MESSAGE value="Add Shop-service" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Shop-service" />
   </component>
 </project>

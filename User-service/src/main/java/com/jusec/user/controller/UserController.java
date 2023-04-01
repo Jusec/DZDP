@@ -3,13 +3,13 @@ package com.jusec.user.controller;
 
 import cn.hutool.core.bean.BeanUtil;
 import com.jusec.user.dto.LoginFormDTO;
-import com.jusec.user.dto.UserDTO;
 import com.jusec.user.entity.User;
 import com.jusec.user.entity.UserInfo;
 import com.jusec.user.service.IUserInfoService;
 import com.jusec.user.service.IUserService;
-import com.jusec.user.utils.UserHolder;
 import com.jusec.utils.dto.Result;
+import com.jusec.utils.dto.UserDTO;
+import com.jusec.utils.utils.UserHolder;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.*;
 
@@ -21,7 +21,6 @@ import javax.servlet.http.HttpSession;
  * 前端控制器
  * </p>
  *
- * @author 虎哥
  */
 @Slf4j
 @RestController

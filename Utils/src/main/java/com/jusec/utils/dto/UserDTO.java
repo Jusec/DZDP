@@ -1,4 +1,4 @@
-package com.jusec.user.dto;
+package com.jusec.utils.dto;
 
 import lombok.Data;
 

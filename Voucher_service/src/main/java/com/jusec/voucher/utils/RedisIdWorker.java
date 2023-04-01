@@ -1,4 +1,4 @@
-package com.jusec.utils.utils;
+package com.jusec.voucher.utils;
 
 import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.stereotype.Component;

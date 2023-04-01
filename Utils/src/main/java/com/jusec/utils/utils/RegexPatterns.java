@@ -1,7 +1,7 @@
 package com.jusec.utils.utils;
 
 /**
- * @author 虎哥
+ * @author Mo
  */
 public abstract class RegexPatterns {
     /**

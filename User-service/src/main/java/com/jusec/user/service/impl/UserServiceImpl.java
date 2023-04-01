@@ -6,13 +6,13 @@ import cn.hutool.core.lang.UUID;
 import cn.hutool.core.util.RandomUtil;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.jusec.user.dto.LoginFormDTO;
-import com.jusec.user.dto.UserDTO;
 import com.jusec.user.entity.User;
 import com.jusec.user.mapper.UserMapper;
 import com.jusec.user.service.IUserService;
 import com.jusec.user.utils.RegexUtils;
-import com.jusec.user.utils.UserHolder;
 import com.jusec.utils.dto.Result;
+import com.jusec.utils.dto.UserDTO;
+import com.jusec.utils.utils.UserHolder;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.data.redis.connection.BitFieldSubCommands;
 import org.springframework.data.redis.core.StringRedisTemplate;
@@ -36,8 +36,6 @@ import static com.jusec.user.utils.SystemConstants.*;
  * 服务实现类
  * </p>
  *
- * @author 虎哥
- * @since 2021-12-22
  */
 @Slf4j
 @Service
