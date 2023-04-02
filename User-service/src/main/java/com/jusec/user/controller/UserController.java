@@ -15,6 +15,8 @@ import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
 import javax.servlet.http.HttpSession;
+import java.util.List;
+import java.util.stream.Collectors;
 
 /**
  * <p>
@@ -110,5 +112,15 @@ public class UserController {
     @GetMapping("/sign/count")
     public Result signCount(){
         return userService.signCount();
+    }
+
+
+    @PostMapping("/ids")
+    public List<UserDTO> userlist(@RequestBody List<Long> ids){
+        List<UserDTO> users = userService.listByIds(ids)
+                .stream()
+                .map(user -> BeanUtil.copyProperties(user, UserDTO.class))
+                .collect(Collectors.toList());
+        return users;
     }
 }
